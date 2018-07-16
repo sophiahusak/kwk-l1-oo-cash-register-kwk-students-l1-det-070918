@@ -8,6 +8,4 @@ def initialize amazon_transaction
   @discount = 20
 end
 
-ama
-
-
+amazon_transaction.total = 100
