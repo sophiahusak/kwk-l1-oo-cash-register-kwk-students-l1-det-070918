@@ -1,6 +1,5 @@
 class AmazonTransaction 
 end
-  price = AmazonTransaction.new
 
 def initialize amazon_transaction
   @total = 0
@@ -9,3 +8,8 @@ def initialize amazon_transaction
 end
 
 amazon_transaction.total = 100
+
+ eggs = AmazonTransaction.new
+  eggs = 0.98
+  
+  amazon_transaction.total = 100.98
