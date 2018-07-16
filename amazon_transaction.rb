@@ -9,7 +9,4 @@ end
 
 amazon_transaction.total = 100
 
- eggs = AmazonTransaction.new
-  eggs = 0.98
-  
-  amazon_transaction.total = 100.98
+amazon_transaction.add_item("eggs", 0.98)
